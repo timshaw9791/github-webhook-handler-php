@@ -10,7 +10,6 @@ github-webhook-handler-php
 4. Fill in the webhooks page.
 
 5. ssh to your server.
-
 ```bash
 #if you are using Apache as web server, change `www-data` to `www`
 chown -R www-data /path/to/the/repository/
@@ -19,4 +18,8 @@ cd /path/to/the/repository/
 sudo -u www-data git pull
 ```
 
-6. Done.
+6. Save your webhook.
+
+7. Reference:
+>- http://www.lovelucy.info/auto-deploy-website-by-webhooks-of-github-and-gitlab.html
+>- http://www.v2ex.com/t/224238#2

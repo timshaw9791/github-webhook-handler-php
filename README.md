@@ -10,6 +10,7 @@ github-webhook-handler-php
 - Fill in the webhooks page.
 
 - ssh to your server.
+
 ```bash
 #if you are using Apache as web server, change `www-data` to `www`
 chown -R www-data /path/to/the/repository/

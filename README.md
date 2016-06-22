@@ -12,7 +12,7 @@ github-webhook-handler-php
 - ssh to your server.
 
 ```bash
-#if you are using Apache as web server, change `www-data` to `www`
+#if you are using Apache as web server, change `www-data` to `apache`
 chown -R www-data /path/to/the/repository/
 chmod -R g+s /path/to/the/repository/
 cd /path/to/the/repository/

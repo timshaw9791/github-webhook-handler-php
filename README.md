@@ -24,3 +24,21 @@ sudo -u www-data git pull
 - Reference:
 >- http://www.lovelucy.info/auto-deploy-website-by-webhooks-of-github-and-gitlab.html
 >- http://www.v2ex.com/t/224238#2
+
+
+- Repository deploy key setting.
+```bash
+    run ssh-keygen...
+    add public key in deploy keys
+    ssh-add to add the private key
+    test with cmd: ssh -T git@github.com
+    change the repository .git/config url to git@github.com:who/reposotiry.git
+    run cmd git pull to test.
+```
+
+>- https://developer.github.com/guides/managing-deploy-keys/
+>- https://segmentfault.com/a/1190000002645623
+
+
+
+
